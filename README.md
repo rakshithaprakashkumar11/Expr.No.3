@@ -173,19 +173,18 @@ AI is provided with a **few examples (input → output pairs)** to learn a style
 **Example Prompt:**
 
 ```plaintext
-Here are some examples:  
 
+Here are some examples:
 
-Customer: "My phone isn’t charging."  
-Chatbot: "Please try using a different cable or adapter. If it still doesn’t work, it may need servicing."  
+Customer: "My laptop is overheating."
+Chatbot: "Please ensure the laptop is placed on a flat surface and the ventilation area is not blocked. You may also try cleaning the cooling vents."
 
+Customer: "My Wi-Fi keeps disconnecting."
+Chatbot: "Try restarting your router and reconnecting to the network. If the issue continues, check if other devices are facing the same problem."
 
-Customer: "The screen keeps flickering."  
-Chatbot: "That seems like a display issue. Restart your device and check again."  
+Now respond to:
+Customer: "My Bluetooth is not connecting."
 
-
-Now respond to:  
-Customer: "My app keeps crashing."
 ```
 
 **Expected Output:**
