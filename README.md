@@ -1,25 +1,14 @@
 # Explaining the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
-
-### DATE: 16.09.2025     
-### NAME: RAJAMANIKANDAN R
-### REGISTER NUMBER : 212223220082
+    
+### NAME: Rakshitha P
+### REGISTER NUMBER : 212223220083
 
 # Aim: 
-To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
-
-
-# Prompt Engineering Techniques for Chatbots
-
-Prompt Engineering is the process of **crafting effective instructions** to guide an AI system toward producing accurate, helpful, and context-aware responses.
-
-A **well-crafted prompt** can help a chatbot:
-
-* Provide relevant answers to user queries.
-* Maintain the desired tone (formal, friendly, empathetic).
-* Handle different types of customer issues efficiently.
-* Avoid misunderstandings by asking clarifying questions.
-
-Different **prompting methods** can be applied depending on the complexity of the query and the detail required.
+To write the prompts for these following prompt types and evaluate that using any one method 
+1. Straightforward Prompts,
+2. Tabular Format Prompting
+3.Preceding Question Prompting and
+4. Missing Word Prompting
 
 ---
 
@@ -28,7 +17,7 @@ Different **prompting methods** can be applied depending on the complexity of th
 ### 1. Straightforward Prompts
 
 **Definition:**
-Direct and simple instructions given to the AI without extra context. Best for **deterministic, repetitive tasks** where the output format is fixed.
+Direct and simple instructions given to the AI without extra context. Best for deterministic, repetitive tasks where the output format is fixed.
 
 **Key Features:**
 
@@ -45,14 +34,25 @@ Direct and simple instructions given to the AI without extra context. Best for *
 **Example:**
 
 ```plaintext
-Prompt: "When a customer asks for order status, reply with:  
-'Your order is currently being processed and will be delivered by [date].'"
+Prompt: "Define Artificial Intelligence in one sentence."
+
+**Conversation:**
+
+User: "Define Artificial Intelligence in one sentence."
+
+Chatbot: "Artificial Intelligence is the simulation of human intelligence in machines that are programmed to think and learn."
 ```
 
 **Conversation:**
 
-* Customer: *"What’s the status of order #1456?"*
-* Chatbot: *"Your order is currently being processed and will be delivered by September 15, 2025."*
+* Prompt: "List three advantages of online education."*
+* Chatbot: *"Response:
+
+Flexible learning schedule
+
+Access to global resources
+
+Cost-effective education."*
 
 **Advantages:** Fast and reliable for structured queries.
 **Limitations:** Lacks flexibility, may fail for vague queries.
@@ -75,14 +75,6 @@ Organizes information into a **structured table** for consistent responses.
 * Troubleshooting guides.
 * Policy summaries (refunds, returns, replacements).
 * Tone-based responses.
-
-**Example Prompt:**
-
-| Issue Type           | Steps                         | Tone       |
-| -------------------- | ----------------------------- | ---------- |
-| Order Tracking       | Provide ETA + tracking number | Reassuring |
-| Product Troubleshoot | Suggest fixes, then escalate  | Helpful    |
-| Refund/Return        | Explain policy + return steps | Empathetic |
 
 **Conversation:**
 
@@ -205,26 +197,40 @@ Customer: "My app keeps crashing."
 
 ---
 
-## Best Practices for Prompt Engineering
+## 🧩 Prompt Design Guidelines
 
-* Keep prompts **clear, concise, and unambiguous**.
-* Use **structured formats (tables, templates)** where consistency is needed.
-* Apply **preceding questions** for vague or incomplete queries.
-* Provide **examples (few-shot)** to teach style/pattern.
-* Always test prompts with **edge cases** (e.g., missing data, typos).
+Designing effective prompts is essential for achieving reliable and high-quality AI responses. The following guidelines help ensure clarity, accuracy, and adaptability across different use cases.
+
+### 1. Define the Objective Clearly
+Each prompt should have a clear goal, such as requesting information, generating structured output, or initiating reasoning. A well-defined objective prevents irrelevant responses.
+
+### 2. Choose the Appropriate Prompt Type
+Select the prompt style based on the task:
+- Use **straightforward prompts** for factual or fixed responses.
+- Apply **tabular prompts** when structured comparison is required.
+- Use **preceding questions** for incomplete or unclear inputs.
+- Choose **missing word prompts** for assessments and validation.
+
+### 3. Maintain Consistent Structure
+Consistency in formatting helps the AI produce predictable outputs. Templates, tables, and fixed phrasing improve reliability, especially in repetitive tasks.
+
+### 4. Minimize Ambiguity
+Avoid vague terms and unclear instructions. Precise language ensures the AI correctly interprets user intent and reduces the chance of incorrect responses.
+
+### 5. Anticipate User Variations
+Design prompts that can handle different user inputs, including missing information, spelling errors, or partial queries.
+
+### 6. Validate and Refine Prompts
+Test prompts with multiple scenarios and refine them based on AI behavior. Iterative improvement leads to better performance and robustness.
+
+### 7. Balance Structure and Flexibility
+While structure is important, prompts should also allow flexibility for natural conversation when required, especially in interactive applications.
+
 
 ---
 ## Conclusion
 
 Implementing diverse prompt engineering techniques empowers chatbots to deliver accurate, context-aware, and user-friendly interactions. Straightforward prompts ensure fast, reliable responses for routine queries, while tabular format prompts provide consistency and structure across multiple scenarios. Missing word (cloze) prompts enable precise personalization, and preceding question prompts enhance clarity by addressing incomplete inputs. Each approach has unique advantages, and strategically combining them maximizes efficiency, accuracy, and customer satisfaction. Thoughtful prompt design not only improves response quality but also fosters trust, scalability, and adaptability, positioning chatbots as effective, reliable, and intelligent tools in modern customer service ecosystems.
-
-Key Takeaways:
-
-1.Enhances accuracy, consistency, and personalization in responses.
-
-2.Builds user trust by clarifying incomplete or ambiguous queries.
-
-3.Supports scalability and adaptability in customer service operations.
 
 ## Result
 
